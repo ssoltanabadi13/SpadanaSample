@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Sample.Application\Sample.Application.csproj" />
+    <ProjectReference Include="..\..\Interface\Sample.Interface.Facade.Query\Sample.Interface.Facade.Query.csproj" />
+    <ProjectReference Include="..\..\Interface\Sample.Interface.Facade\Sample.Interface.Facade.csproj" />
+    <ProjectReference Include="..\Sample.Infrastructure.EF\Sample.Infrastructure.EF.csproj" />
+  </ItemGroup>
+
+</Project>

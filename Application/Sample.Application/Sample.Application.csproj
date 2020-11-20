@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Sample.Domain\Sample.Domain.csproj" />
+    <ProjectReference Include="..\..\Interface\Sample.Interface.Facade.Contract\Sample.Interface.Facade.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
